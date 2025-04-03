@@ -24,6 +24,7 @@ public class Estudiante extends Persona{
     }
     public void mostrarDatos(){
         System.out.println("                                            ");
+        System.out.println("ESTUDIANTE");
         System.out.println("El nombre del estudiante es: "+getNombre());
         System.out.println("Los apellidos del estudiante son: "+getApellidos());
         System.out.println("La edad del estudiante es: "+getEdad());
