@@ -29,7 +29,27 @@ public class App {
     d4.mostrarDatos();
     Docente d5 = new Docente("Leonardo","Parra Parra", 32, 2200);
     d5.mostrarDatos();
+
+
+
+    //creamos objeto de administrador y instanciamos para mostrar datos
+    Administrador a1 = new Administrador("Manrique", "Gomez Cardenas", 34,
+     "Manrique123@gmail.com", "Basico");
+     a1.mostrarDatos();
+     Administrador a2 = new Administrador("Libardo", "Trujillo Caldas", 36,
+     "Libardo67caldas@gmail.com", "Superior");
+     a2.mostrarDatos();
+     Administrador a3 = new Administrador("Marcela", "Rubio Jaramillo", 28,
+     "Mace56la23@gmail.com", "Inferior");
+     a3.mostrarDatos();
+     Administrador a4 = new Administrador("Carmen", "Hurtado Osorio", 32,
+     "Carm.osorio.@gmail.com", "Basico");
+     a4.mostrarDatos();
+     Administrador a5 = new Administrador("Teresa", "Caicedo Vera", 39,
+     "VeraveraTeresa.com", "Superior");
+     a5.mostrarDatos();
     }
      
+
  
 }
