@@ -22,7 +22,15 @@ public class Estudiante extends Persona{
     public void setNotaFinal(float notaFinal) {
         this.notaFinal = notaFinal;
     }
-    
+    public void mostrarDatos(){
+        System.out.println("El nombre del estudiante es: "+getNombre());
+        System.out.println("Los apellidos del estudiante son: "+getApellidos());
+        System.out.println("La edad del estudiante es: "+getEdad());
+        System.out.println("El codigo del estudiante es: "+codigoEstudiante);
+        //el es el dueño de su propio atributo por lo mismo no necesita pedir permiso 
+        // para usarlo como en el tema de la nota final o el codigo de estudiante
+        System.out.println("La nota final del estudiante es: "+notaFinal);
+    }
     
 
  
