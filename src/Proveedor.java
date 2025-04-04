@@ -55,9 +55,9 @@ public class Proveedor extends Persona{
     public void mostrarDatos(){
         System.out.println("                                            ");
         System.out.println("----PROVEEDORES-----");
-        System.out.println("El nombre del administrador es: "+getNombre());
-        System.out.println("Los apellidos del administrador son: "+getApellidos());
-        System.out.println("La edad del administrador es: "+getEdad());
+        System.out.println("El nombre del proveedor es: "+getNombre());
+        System.out.println("Los apellidos del proveedor son: "+getApellidos());
+        System.out.println("La edad del proveedor es: "+getEdad());
         System.out.println("Nombre Del Proveedor: "+nombreEmpresa);
         System.out.println("Telefono: "+telefono);
         System.out.println("Correo electronico: "+correoElectronico);
