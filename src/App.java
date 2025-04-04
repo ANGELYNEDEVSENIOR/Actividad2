@@ -48,6 +48,17 @@ public class App {
      Administrador a5 = new Administrador("Teresa", "Caicedo Vera", 39,
      "VeraveraTeresa.com", "Superior");
      a5.mostrarDatos();
+
+     Proveedor P1 = new Proveedor("Martín", "Gutiérrez", 45, "", "5512356780", "Av. Universidad 123, Ciudad de México, México", "mgutierrez@saguti.com", "Material de oficina, papel, bolígrafos, carpetas, impresoras");
+        P1.mostrarDatos();
+        Proveedor P2 = new Proveedor("Andrea", "Lopez",38 , " López Tech Solutions", "311234567", " C/ Gran Vía 45, Madrid, España", "andrea.lopez@lopeztech.com", "Equipos de cómputo, software académico, servidores, proyectores");
+        P2.mostrarDatos();
+        Proveedor P3 = new Proveedor("Javier", "Rojas", 50, "Rojas Mantenimiento Integral", "311456789", "Cra 15 #45-23, Bogotá, Colombia", "jrojas@rojasmi.com", " Servicios de mantenimiento, plomería, electricidad, pintura");
+        P3.mostrarDatos();
+        Proveedor P4 = new Proveedor("Mariana", "Perez", 42, "Catering Universitario Pérez", "305987654", " 789 College St, Miami, FL, EE.UU.", "mperez@cateringperez.com", "Servicio de cafetería, catering para eventos, snacks saludables");
+        P4.mostrarDatos();
+        Proveedor P5 = new Proveedor("Ricardo", "Fernandez", 48, "Editorial Fernández y Asociados", "321226658", " Av. Corrientes 765, Buenos Aires, Argentina", "rfernandez@editorialfya.com", "Libros académicos, revistas científicas, material didáctico");
+        P5.mostrarDatos();
     }
      
 

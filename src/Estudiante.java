@@ -32,6 +32,7 @@ public class Estudiante extends Persona{
         //el es el dueño de su propio atributo por lo mismo no necesita pedir permiso 
         // para usarlo como en el tema de la nota final o el codigo de estudiante
         System.out.println("La nota final del estudiante es: "+notaFinal);
+        
     }
     
 
