@@ -69,6 +69,7 @@ public class Proveedor extends Persona{
 
 
     public void mostrarDatos(){
+        System.out.println("                                            ");
         System.out.println("----PROVEEDORES-----");
         System.out.println("El nombre del administrador es: "+getNombre());
         System.out.println("Los apellidos del administrador son: "+getApellidos());

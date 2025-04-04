@@ -49,7 +49,22 @@ public class App {
      "VeraveraTeresa.com", "Superior");
      a5.mostrarDatos();
 
-     Proveedor p1 = new Proveedor("martin"  0, null, null, null)
+     Proveedor p1 = new Proveedor("martin",  "martinez lopez", 32, "López Tech Solutions",
+      "311234567", "andrea.lopez@lopeztech.com");
+      p1.mostrarDatos();
+      Proveedor p2 = new Proveedor("Javier",  "Rojas Guedez", 34, "Rojas Mantenimiento Integral",
+      "311456789", "jrojas@rojasmi.com");
+      p2.mostrarDatos();
+      Proveedor p3 = new Proveedor("Andrea",  "Torres Vergara", 40, "Revolutions Tech",
+      "300876543", "andrea.lopez@gamil.com");
+      p3.mostrarDatos();
+      Proveedor p4 = new Proveedor("Anastacia",  "Calderon Reyes", 36, "Reyes inteligencia",
+      "320876543", "anastacia.calderon@lopeztech.com");
+      p4.mostrarDatos();
+      Proveedor p5 = new Proveedor("Laura",  "Casillo Prieto", 43, "creative solutions",
+      "356432123", "Laura.casillo@lopeztech.com");
+      p5.mostrarDatos();
+
     }
      
 
